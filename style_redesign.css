@@ -1,0 +1,286 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.navbar-brand {
+	float: left;
+	height: 15px;
+	padding: 15px 15px;
+	font-size: 20px;
+	line-height: 20px;
+	color: white;
+}
+
+.navbar-brand>img {
+	display: block;
+}
+
+.img-circle {
+	border-radius: 50%
+}
+
+.navbar-brand >img {
+	vertical-align: middle;
+	border : 0;
+	width: 25px;
+	height: 25px;
+}
+
+nav{
+    display: block;
+    background-color: #4679BD;
+    height: 50px;
+    text-align: center;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav ul > li{ display: inline; 
+            margin-top: 10px;
+}
+nav ul > li > a{
+    display: inline-block;
+    padding: 8px 12px;
+    border-right: #4072B4;
+    text-decoration: none;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 20px;
+    float: right!important;
+    text-align: center;
+    margin-right: 10px;
+}
+nav ul > li > a:hover{ 
+    background-color: #4072B4; height: 50px; }
+
+
+.hero {
+	background-image: url(bg1.jpg);
+	padding: 0;
+}
+
+.hero h1 {
+	font-size: 60px;
+}
+
+.hero p{
+	font-size: 100px;
+	color: white;
+}
+
+.hero {
+	padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    color: inherit;
+    background-color: #eee;
+}
+
+.hero img {
+	border: 3px white;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+img {
+	vertical-align: middle;
+}
+
+.hero {
+	padding-top: 48px;
+	padding-bottom: 48px;
+}
+
+.text-center {
+	text-align: center;
+	font-family: poppins;
+}
+
+.hero p{
+	font-size: 15px;
+}
+
+
+.tentang p {
+	font-size:15px;
+	line-height: 1,7;
+	font-family: poppins;
+	text-align: left;
+	margin-left: 20px;
+}
+
+.tentang img {
+	width: 350px;
+	float: right;
+}
+
+.tentang {
+	display: inline-block;
+	font-family: poppins;
+}
+
+.tentang h2 {
+	font-size: 30px;
+}
+ 
+ .portfolio {
+ 	background-color: silver;
+ 	height: 600px;
+ 	box-sizing: 50px;
+ }
+
+ .portfolio h2{
+ 	font-size: 30px;
+ }
+
+ .row {
+ 	margin-right: -15px;
+ 	margin-left: -15px;
+ }
+
+ .portfolio .thumbnail {
+ 	margin-left: 100px;
+ 	margin-right: 100px;
+    transform: translate(0,-40px);
+    transition: .5s;
+    width: 200px;
+    height: 138px;
+    vertical-align: middle;
+ }
+
+ .thumbnail {
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+ }
+
+ section {
+ 	display: block;
+ 	box-sizing: border-box;
+ }
+
+.col-sm-4 {
+	float: left;
+}
+
+.col-sm-4 {
+	width: 33%;
+}
+
+.col-sm-4 {
+	position: relative;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 25px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.thumbnail>img {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.thumbnail>img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+.kontak h2 {
+	font-size: 30px;
+}
+
+form {
+	display: block;
+	margin-top: 0em;
+}
+
+.form-group {
+	margin-left: 500px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    vertical-align: middle;
+ }
+
+ .col-sm-6 {
+ 	vertical-align: middle;
+ }
+ 
+ .row {
+    margin-right: -15px;
+    margin-left: -15px;
+	   }
+ .form-control {
+    display: block;
+    width: 400px;
+    height: 40px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color ease-in-out .15s , box-shadow ease-in-out .15s;
+    
+}
+
+.btn-primary {
+        margin-left: 500px;
+}
+
+
+
+
+
+footer {
+	background-color: silver;
+	font-family: poppins;
+}
+
+.btn-info{
+	color: #fff;
+    background-color: #5bc0de;
+    border-color: #46b8da;
+}
+
+.btn {
+	display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
